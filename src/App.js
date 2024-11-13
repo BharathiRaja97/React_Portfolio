@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   <link href="./output.css" rel="stylesheet"></link>
   return (
-    <div className="App">
+    <div className="App ">
                 <Header />
                 <Devoloper />
                 <Projects />

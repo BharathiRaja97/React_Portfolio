@@ -1,4 +1,5 @@
-import AboutImg from '../assets/devolop.jpg';
+//import './App.css';
+import AboutImg from '../assets/System.png';
 
 export default function About () {
     const config  = {
@@ -13,7 +14,7 @@ export default function About () {
             <img src={AboutImg} />
         </div>
         <div className='md:w-1/2 flex justify-center '>
-            <div className='flex flex-col justify-center text-white border-primary mb-5 w-[260px] '>
+            <div className='flex flex-col justify-center text-white font-semibold text-xl border-primary mb-5 w-[260px] '>
                 <h1 className='text-3xl border-b-4 border-primary mb-3 w-[140px] font-bold'>About Me</h1>
                 <p className='pb-4'>{config.line1}</p>
                 <p className='pb-4'>{config.line2}</p>

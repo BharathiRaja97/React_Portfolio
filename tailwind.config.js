@@ -5,8 +5,16 @@ module.exports = {
   ],
   theme: {
     
+    fontFamily : {
+      'tamil-font' : 'Karla+Tamil+Inclined'    
+    },
+    fontFamily : {
+      "meow" : "Meow"
+    }
   },
     
   plugins: [],
+
+  
 }
 
